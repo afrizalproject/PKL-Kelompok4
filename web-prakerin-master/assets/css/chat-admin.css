@@ -1,0 +1,41 @@
+.kotak-chat {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    margin-top: 3%;
+    border-radius: 8px;
+}
+
+.pesan-siswa {
+    background-color: #27cdf0;
+    border-radius: 10px 10px 10px 0;
+    padding: 5px 20px;
+    max-width: 65%;
+    float: left;
+    color: #fff;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.pesan-admin {
+    background-color: #53ce89;
+    border-radius: 10px 10px 0 10px;
+    padding: 5px 20px;
+    max-width: 65%;
+    float: right;
+    color: #fff;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.bungkus {
+    height: 310px;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+.btn-kurum {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: salmon;
+}

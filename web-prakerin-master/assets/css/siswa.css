@@ -1,0 +1,669 @@
+@font-face {
+	font-family: "eko";
+	src: url('../fonts/balo.ttf');
+}
+
+@font-face {
+	font-family: "kepo";
+	src: url('../fonts/kepo.otf');
+}
+
+body {
+	overflow-x: hidden;
+	background-color: #bbb;
+}
+
+/* STYLE NAV */
+
+nav {
+	width: 100%;
+	height: 60px;
+}
+
+nav ul {
+	list-style: none;
+	float: right;
+	margin-right: 10%;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-top: 20px;
+	transition: all 0.5s ease;
+}
+
+nav ul li a {
+	color: #fff;
+	padding: 5px 20px;
+	font-family: "eko";
+	text-transform: uppercase;
+}
+
+nav ul li:hover a {
+	text-decoration: none;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+/* END STYLE NAV */
+
+.bunder {
+	width: 110%;
+	height: 830px;
+	margin-left: -5%;
+	border-radius: 50%;
+	margin-top: -26%;
+	background-image: linear-gradient(111.5deg, rgba(20, 100, 196, 1) 0.4%, rgba(33, 152, 214, 1) 100.2%);
+}
+
+#judul-selamat {
+	margin-top: -31%;
+	font-family: "eko";
+	margin-left: 10%;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+#tulis-des {
+	width: 40%;
+	margin-left: 10%;
+	color: #fff;
+	font-family: 'kepo';
+	font-weight: bold;
+}
+
+.kiri {
+	float: left;
+}
+
+.kanan {
+	margin-right: 10%;
+	float: right;
+}
+
+#btn-oke {
+	padding: 13px 35px;
+
+	margin-left: 10%;
+	font-family: "kepo";
+	font-weight: bold;
+	color: #fff;
+	transition: all 0.5s ease;
+	background-color: transparent;
+	border: 1px solid #fff;
+}
+
+#btn-oke:hover {
+	padding-right: 130px;
+	text-decoration: none;
+	background-color: #00BCD4;
+	transition: all 0.5s ease;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	color: #fff;
+
+}
+
+#kotak-miring {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	margin-top: -70%;
+	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+}
+
+#kotak-miring img {
+	width: 100%;
+}
+
+
+
+#menu {
+	width: 75%;
+	height: 190px;
+	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+	border-radius: 10%;
+	background-color: #fff;
+	padding-top: 5%;
+	margin-top: 20%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	float: left;
+}
+
+#menu img {
+	width: 100%;
+	height: 75%;
+}
+
+#menu .judul-menu {
+	text-align: center;
+	color: #1a7fce;
+	font-family: "eko";
+	text-transform: uppercase;
+	margin-top: 4%;
+}
+
+#x {
+	display: none;
+}
+
+.menu-a:hover {
+	text-decoration: none;
+}
+
+#icon {
+	font-size: 95px;
+	margin-left: 36%;
+	color: #1a7fce;
+	padding-top: 10%;
+}
+
+.judul-icon {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "eko";
+	color: rgb(26, 127, 207);
+	margin-top: 2%;
+	margin-bottom: 0;
+}
+
+.des-menu {
+	text-align: center;
+	font-family: "kepo";
+	font-weight: bold;
+	width: 85%;
+	color: rgb(26, 127, 207);
+	margin: auto;
+	margin-bottom: 11%;
+	margin-top: 1%;
+}
+
+.colom {
+	width: 30%;
+	background-color: #fff;
+	margin-top: 5%;
+	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+	padding-bottom: 4.5%;
+	float: left;
+	margin-right: 3%;
+	transition: 0.5s ease;
+}
+
+.colom:hover {
+	box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+	transition: 0.5s ease;
+}
+
+.btn-menu {
+	padding: 4% 20%;
+	margin-left: 16%;
+	background-image: radial-gradient(circle farthest-corner at -3.7% -5%, rgba(113, 213, 225, 1) 0.3%, rgba(73, 146, 226, 1) 90.5%);
+	color: #fff;
+	border-radius: 7px;
+	font-family: "eko";
+	transition: 0.5s ease;
+}
+
+.btn-menu:hover {
+	animation: btn 6s ease-in 2s infinite;
+	text-decoration: none;
+	color: #fff;
+	transition: all 0.5s ease;
+}
+
+#burger {
+	display: none;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++ SECTION PROFILE STLYE ++++++++++++++++++++++++++++++ */
+.burger-nav {
+	float: right;
+	margin: 2.5% 5% 2.5% 0%;
+	color: #fff;
+	font-size: 22px;
+	display: none;
+}
+
+#icon-kembali {
+	padding-top: 1.2%;
+	margin-left: 5%;
+	color: #fff;
+	font-size: 20px;
+	display: none;
+}
+
+.kanan-bag {
+	width: 50%;
+	padding-left: 5%;
+	background-color: #00BCD4;
+}
+
+.bungkus-kanan {
+	width: 60%;
+	float: left;
+	margin-top: 5%;
+	padding-top: 5%;
+	padding-bottom: 10%;
+	transition: all 0.5s ease;
+
+}
+
+.kanan-bag .bungkus-kanan:hover {
+	background-color: #fff;
+	box-shadow: 15px 20px 0 #dad9d9;
+
+}
+
+.kiri-bag {
+	width: 65%;
+	min-height: 400px;
+	float: right;
+	margin-top: 3%;
+}
+
+.colo-satu {
+	margin-left: 20%;
+}
+
+.colo-dua {
+	margin-top: -5.5%;
+	margin-left: 30%;
+}
+
+#icon-pro {
+	font-size: 40px;
+	color: #02a9f4;
+	margin-top: 4%;
+
+}
+
+.nama-sis {
+	font-family: "eko";
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #02a9f4;
+}
+
+.judul-detail {
+	text-transform: uppercase;
+	text-align: center;
+	font-family: "eko";
+	color: #02a9f4;
+	border-bottom: 2px solid #02a9f4;
+	font-size: 36px;
+	width: 60%;
+	margin: auto;
+
+}
+
+#foto-profile {
+	width: 200px;
+	height: 200px;
+	margin: auto;
+}
+
+.judul-siswa {
+	margin: auto;
+	text-align: center;
+	margin-top: 2%;
+	width: 30%;
+	border-bottom: 2px solid #02a9f4;
+	font-size: 35px;
+	font-family: "eko";
+	color: #02a9f4;
+	text-transform: uppercase;
+}
+
+.tengah {
+	margin-bottom: 10%;
+}
+
+.tombol-aksi {
+	width: 100%;
+	padding-left: 8%;
+	padding-top: 5%;
+
+}
+
+.aksi-kanan {
+	width: 48%;
+	float: left;
+}
+
+.aksi-kiri {
+	width: 50%;
+	float: left;
+}
+
+#btn-aksi {
+	padding: 11px 30px;
+	border-radius: 22px;
+	background-image: linear-gradient(111.5deg, rgba(20, 100, 196, 1) 0.4%, rgba(33, 152, 214, 1) 100.2%);
+	color: #fff;
+	font-family: "eko";
+}
+
+#btn-aksi:hover {
+	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+
+}
+
+
+.diskripsi-oy {
+	color: #02a9f4;
+	font-family: "kepo";
+	font-weight: bold;
+	text-align: justify;
+	width: 150%;
+	margin-left: -28%;
+}
+
+.foto-profile img {
+	width: 100%;
+	height: 100%;
+}
+
+.claer-left {
+	clear: left;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++ END SECTION PROFILE STLYE +++++++++++++++++++++++++++++ */
+
+
+/* ANIMASI BTN MENU */
+
+@keyframes btn {
+	0% {
+		background-image: radial-gradient(circle 773px at 2.3% 96.8%, rgba(73, 88, 231, 1) 0%, rgba(77, 19, 124, 0.97) 100.3%);
+		transition: all 1s ease;
+	}
+
+	50% {
+		background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(223, 91, 91, 1) 0%, rgba(255, 209, 110, 1) 100.2%);
+		transition: all 1s ease;
+	}
+
+	70% {
+		background-image: radial-gradient(circle farthest-corner at -3.7% -5%, rgba(113, 213, 225, 1) 0.3%, rgba(73, 146, 226, 1) 90.5%);
+		transition: all 1s ease;
+	}
+
+	90% {
+		background-image: linear-gradient(180.5deg, rgba(0, 128, 128, 1) 8.5%, rgba(174, 206, 100, 1) 118.2%);
+		transition: all 1s ease;
+	}
+}
+
+
+
+/* RESPOSONSIVE TABLET */
+
+@media screen and (max-width: 1024px) {
+	body {
+		overflow-x: hidden;
+	}
+
+	nav ul li a {
+		color: #fff;
+	}
+
+	.bunder {
+		margin-top: -30%;
+		height: 700px;
+		border-radius: 43%;
+	}
+
+	#btn-oke {
+		padding: 11px 17px;
+		font-size: 13px;
+	}
+
+	#judul-selamat {
+		margin-top: -37%;
+	}
+
+	#tulis-des {
+		width: 70%;
+	}
+
+	.colom {
+		margin-top: 3%;
+	}
+
+	#kotak-miring {
+		width: 250px;
+		height: 250px;
+	}
+
+	.btn-menu {
+		margin-left: 13%;
+	}
+
+	#icon {
+		margin-left: 33%;
+	}
+
+	#menu-oy {
+		margin-left: 5%;
+	}
+
+}
+
+@media screen and (max-width: 800px) {
+	.bunder {
+		margin-top: -40%;
+		height: 650px;
+	}
+
+	nav ul li a {
+		color: #fff;
+	}
+
+	#judul-selamat {
+		margin-top: -40%;
+		font-size: 30px;
+	}
+
+	#tulis-des {
+		width: 80%;
+	}
+
+	#kotak-miring {
+		width: 200px;
+		height: 200px;
+	}
+
+	#btn-oke {
+		padding: 10px 15px;
+		font-size: 13px;
+	}
+
+	.btn-menu {
+		margin-left: 14.5%;
+	}
+
+	.colom {
+		width: 47%;
+		margin-top: 3%;
+	}
+
+	#icon {
+		margin-left: 35%;
+	}
+
+	#menu-oy {
+		margin-left: 4.5%;
+	}
+}
+
+
+/* RESPONSIVE DESIGN MOBILE SMART PHONE */
+
+
+@media screen and (max-width: 411px) {
+	.bunder {
+		margin-top: -60%;
+		height: 650px;
+		border-radius: 0%;
+	}
+
+
+	#burger {
+		display: inline-block;
+		color: #1870c9;
+		margin-left: 10%;
+		font-size: 25px;
+		padding: 10px;
+		margin-top: 5px;
+		background-color: #fff;
+		border-radius: 6px;
+
+	}
+
+	#icon-kembali {
+		padding-top: 2.8%;
+		margin-left: 5%;
+		color: #fff;
+		font-size: 20px;
+	}
+
+	nav {
+		position: fixed;
+		z-index: 99;
+		padding: 5px 0;
+		background-image: linear-gradient(111.5deg, rgba(20, 100, 196, 1) 0.4%, rgba(33, 152, 214, 1) 100.2%);
+	}
+
+	nav ul {
+		display: none;
+		background-color: #fff;
+		margin-left: 11%;
+		margin-top: 2%;
+		border: none;
+		outline: none;
+		border-radius: 0 8px 8px 8px;
+		padding: 5% 0;
+		position: relative;
+		z-index: 9;
+		box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+	}
+
+	.burger-nav {
+		display: inline-block;
+	}
+
+	nav ul li {
+		width: 100%;
+	}
+
+	nav ul li a {
+		color: royalblue;
+	}
+
+	.onklik {
+		color: royalblue;
+	}
+
+
+
+	#judul-selamat {
+		margin-top: 10%;
+		font-size: 30px;
+	}
+
+	#kotak-miring {
+		width: 150px;
+		height: 150px;
+		margin-top: -55%;
+	}
+
+	.colom {
+		width: 100%;
+		margin-left: -4.6%;
+		padding-bottom: 14%;
+	}
+
+	.btn-menu {
+		margin-left: 17%;
+	}
+
+	#icon {
+		margin-left: 37.4%;
+	}
+
+	#btn-oke {
+		padding: 10px 50px;
+		background-color: #00BCD4;
+		color: #fff;
+	}
+
+	#x {
+		display: inline-block;
+	}
+
+}
+
+
+@media screen and (max-width: 359px) {
+	#judul-selamat {
+		margin-left: 7%;
+		margin-top: -110%;
+	}
+
+	#icon-kembali {
+		padding-top: 2.8%;
+		margin-left: 5%;
+		color: #fff;
+		font-size: 20px;
+	}
+
+	.burger-nav {
+		display: inline-block;
+	}
+
+	#burger {
+		margin-left: 7%;
+	}
+
+	#tulis-des {
+		margin-left: 7%;
+		width: 86%;
+		text-align: justify;
+	}
+
+	#x {
+		display: inline-block;
+	}
+
+	#btn-oke {
+		margin-left: 7%;
+		padding: 14px 60px;
+		border: none;
+		border-radius: 5px;
+	}
+}
+
+/* FOOTER */
+
+
+footer {
+	width: 100%;
+	padding: 20px 0;
+	background-color: #03A9F4;
+}
+
+footer p {
+	text-align: center;
+	color: #fff;
+	margin-bottom: 0;
+}
+
+footer a {
+	color: #fff;
+}

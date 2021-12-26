@@ -1,0 +1,26 @@
+.keterangan {
+    width: 80%;
+    padding-top: 1%;
+    margin: 5% auto;
+    border-style: dashed;
+    color: #02a9f4;
+    text-align: center;
+}
+
+#absen {
+    margin-left: 8.5%;
+    margin-bottom: 4%;
+}
+
+#btn-sudah {
+    background-color: #02a9f4;
+    color: white;
+    margin-left: -9%;
+    margin-bottom: 2%;
+}
+
+#btn-opo {
+    background-color: #02a9f4;
+    color: white;
+    margin-left: -9%;
+}

@@ -1,0 +1,83 @@
+body {
+    overflow-x: hidden;
+}
+
+.bubble {
+    width: 200px;
+    height: 200px;
+    margin-top: -15%;
+    margin-left: -15%;
+    border-radius: 50%;
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(255, 171, 0, 1) 0%, rgba(255, 139, 0, 1) 90.1%);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+}
+
+.bubble2 {
+    width: 200px;
+    height: 200px;
+    background-color: #ffc15e;
+    border-radius: 50%;
+    margin: -60% 0 0 10%;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+}
+
+.bubble3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: -16% 0 0 10%;
+    background-image: radial-gradient(circle 484px at 49.4% 19%, rgba(23, 156, 214, 1) 0%, rgba(52, 48, 111, 1) 100.2%);
+    position: relative;
+    z-index: -3;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+}
+
+.bubble4 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: radial-gradient(circle farthest-corner at 78% 59.3%, rgba(255, 104, 104, 1) 0%, rgba(230, 127, 41, 1) 90%);
+    margin-left: 85%;
+    margin-bottom: -45%;
+    position: relative;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+}
+
+.bubble5 {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(255, 171, 0, 1) 0%, rgba(255, 139, 0, 1) 90.1%);
+    margin: 0 0 -15% 60%;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+}
+
+.bubble6 {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    margin-left: 65%;
+    margin-bottom: -23%;
+    background-image: radial-gradient(circle 484px at 49.4% 19%, rgba(23, 156, 214, 1) 0%, rgba(52, 48, 111, 1) 100.2%);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+}
+
+#nof {
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(246, 139, 31, 1) 0%, rgba(246, 103, 103, 1) 90.1%);
+    color: #fff;
+    margin-top: -10%;
+    border: none;
+    font-family: "exo";
+    font-size: 16px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.tag {
+    color: #212529;
+}
